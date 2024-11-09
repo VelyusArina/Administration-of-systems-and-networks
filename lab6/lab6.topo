@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="85674B4A-1593-4ece-8B0C-DEC6596583D3" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-B4-5E-F9" com_port="2003" bootmode="0" cx="395.000000" cy="97.000000" edit_left="422" edit_top="151">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="7BF57F04-F972-405b-A604-30804B507626" name="AP1" poe="0" model="AP4030" settings=" -apMac 00-E0-FC-8F-26-80 -apSN 210235448310AE14436D" system_mac="00-E0-FC-8F-26-80" com_port="2000" bootmode="0" cx="219.000000" cy="414.000000" edit_left="246" edit_top="468">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="0B5D09B7-A823-4bbc-9CA1-38361E84B7E4" name="LSW3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-F8-6D-1D" com_port="2005" bootmode="0" cx="552.000000" cy="228.000000" edit_left="579" edit_top="282">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="250A82B6-EDCF-4aeb-A396-19751D1E0884" name="LSW2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C1-25-31" com_port="2004" bootmode="0" cx="230.000000" cy="238.000000" edit_left="257" edit_top="292">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="06F043A2-08B3-4f2b-933F-B88F3CAA03F1" name="AC1" poe="0" model="AC6605" settings="" system_mac="00-E0-FC-01-11-84" com_port="2002" bootmode="0" cx="680.000000" cy="100.000000" edit_left="707" edit_top="154">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="9F6BD769-3C38-4914-A51C-9D4DADF26EFF" name="AP2" poe="0" model="AP4030" settings=" -apMac 00-E0-FC-47-3F-10 -apSN 210235448310E805143C" system_mac="00-E0-FC-47-3F-10" com_port="2001" bootmode="0" cx="559.000000" cy="371.000000" edit_left="586" edit_top="425">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="0F0555CB-B11D-48fe-877C-29D43AFE0582" name="STA1" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-89-3F-BF  -simsta_check 0 " system_mac="54-89-98-89-3F-BF" com_port="0" bootmode="0" cx="448.000000" cy="414.000000" edit_left="475" edit_top="468">
+            <slot number="slot17" isMainBoard="1" />
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="85674B4A-1593-4ece-8B0C-DEC6596583D3" destDeviceID="06F043A2-08B3-4f2b-933F-B88F3CAA03F1">
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="1" srcBoundRect_X="465.181366" srcBoundRect_Y="124.454544" srcOffset_X="-44.000000" srcOffset_Y="-21.000000" tarIndex="9" tarBoundRectIsMoved="1" tarBoundRect_X="663.818604" tarBoundRect_Y="126.545456" tarOffset_X="-3.000000" tarOffset_Y="-19.000000" />
+        </line>
+        <line srcDeviceID="85674B4A-1593-4ece-8B0C-DEC6596583D3" destDeviceID="250A82B6-EDCF-4aeb-A396-19751D1E0884">
+            <interfacePair lineName="Copper" srcIndex="12" srcBoundRectIsMoved="1" srcBoundRect_X="389.170349" srcBoundRect_Y="152.054428" srcOffset_X="-64.000000" srcOffset_Y="-7.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="289.829651" tarBoundRect_Y="236.945572" tarOffset_X="7.000000" tarOffset_Y="6.000000" />
+        </line>
+        <line srcDeviceID="85674B4A-1593-4ece-8B0C-DEC6596583D3" destDeviceID="0B5D09B7-A823-4bbc-9CA1-38361E84B7E4">
+            <interfacePair lineName="Copper" srcIndex="13" srcBoundRectIsMoved="1" srcBoundRect_X="455.157379" srcBoundRect_Y="151.666336" srcOffset_X="12.000000" srcOffset_Y="-6.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="545.842651" tarBoundRect_Y="227.333664" tarOffset_X="-53.000000" tarOffset_Y="7.000000" />
+        </line>
+        <line srcDeviceID="250A82B6-EDCF-4aeb-A396-19751D1E0884" destDeviceID="7BF57F04-F972-405b-A604-30804B507626">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="254.306274" srcBoundRect_Y="308.099670" srcOffset_X="11.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="248.693726" tarBoundRect_Y="397.900330" tarOffset_X="12.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="0B5D09B7-A823-4bbc-9CA1-38361E84B7E4" destDeviceID="9F6BD769-3C38-4914-A51C-9D4DADF26EFF">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="581.111389" srcBoundRect_Y="298.132111" srcOffset_X="-58.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="583.888611" tarBoundRect_Y="354.867889" tarOffset_X="-56.000000" tarOffset_Y="-1.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="679" top="62" right="721" bottom="94" content="dhcp&#x0D;&#x0A;wlan" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="739" top="109" right="886" bottom="173" content="vlanif100&#x0D;&#x0A;192.168.100.254 24&#x0D;&#x0A;ip-loop-ap&#x0D;&#x0A;192.168.100.0" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="409" top="77" right="443" bottom="94" content="dhcp" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="232" top="42" right="379" bottom="137" content="vlanif101&#x0D;&#x0A;192.168.101.254 24&#x0D;&#x0A;loopback0&#x0D;&#x0A;10.0.1.1 32&#x0D;&#x0A;ip-pool-sta&#x0D;&#x0A;192.168.101.0 24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
